@@ -1,0 +1,13 @@
+{
+  "name": "electron-app-icon-creator",
+  "version": "1.0.0",
+  "description": "Generate app icons for Electron applications",
+  "main": "generateIcons.js",
+  "scripts": {
+    "start": "node generateIcons.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6",
+    "fs-extra": "^11.1.1"
+  }
+}
